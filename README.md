@@ -1,5 +1,5 @@
 # Cifar_10_IN3_Assesment
-# CIFAR-10 Custom CNN Project
+### CIFAR-10 Custom CNN Project
 
 This repository contains code for a CIFAR-10 classification project using a custom-made Convolutional Neural Network (CNN) model.
 
