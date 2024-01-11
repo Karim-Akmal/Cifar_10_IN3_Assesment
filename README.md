@@ -22,7 +22,7 @@ After testing the model on the test set, the following performance metrics were 
 
 ### Fine-tuning
 
-If you performed fine-tuning or experimented with hyperparameters, briefly describe the process and share key insights. Highlight any changes that led to improvements or challenges faced during the fine-tuning process.
+Changed alot of layers and channel layers, also did change in the hyperparameters.
 
 ## Suggestions for Improvement
 
