@@ -11,9 +11,14 @@ This repository contains code for a CIFAR-10 classification project using a cust
 
 CNNs are a type of neural network designed for processing grid-like data, such as images. They have proven to be highly effective in image classification tasks due to their ability to capture spatial hierarchies and local patterns in the data.
 
-## Results
+### Evaluation Results
 
-Insert your results, performance metrics, or any significant achievements obtained by your custom CNN model here. This could include accuracy, loss curves, confusion matrices, or any other relevant evaluation metrics.
+After testing the model on the test set, the following performance metrics were obtained:
+
+- **Accuracy:** 0.6807
+- **Precision:** 0.6845
+- **Recall:** 0.6807
+- **F1-Score:** 0.6773
 
 ### Fine-tuning
 
@@ -25,21 +30,13 @@ Here are some suggestions for improving the custom CNN model:
 
 1. **Architecture Modification**: Experiment with different architectures, layers, or deeper networks to capture more complex features.
 
-2. **Hyperparameter Tuning**: Fine-tune hyperparameters such as learning rate, batch size, dropout rates, etc., to optimize the model's performance.
-
-3. **Data Augmentation**: Explore additional data augmentation techniques to improve the model's ability to generalize to unseen data.
+2. **More Hyperparameter Tuning**: Fine-tune hyperparameters such as learning rate, batch size, dropout rates, etc., to optimize the model's performance.
 
 4. **Transfer Learning**: Consider using pre-trained models or transfer learning techniques to leverage knowledge from other datasets.
 
-5. **Ensemble Learning**: Train multiple models and combine their predictions using ensemble methods for enhanced performance.
+5. **Use Spacial Attention or Channel Attention**: Use any of these 2 types or even both of them between the CNN layers.
 
-## Acknowledgments
-
-Mention any references, tutorials, or resources that inspired or guided you during the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+6.  **Use Transformers**: Use state of the art models and architectures like Vision Transformers "ViT".
 
 ## Author
 
